@@ -1,0 +1,163 @@
+.artist{
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+}
+
+.anime{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 5%;
+    width: 95%;
+}
+
+.anime div{
+    height: fit-content;
+}
+
+.ceo{
+    bottom: 20%;
+    height: fit-content;
+    left: 30%;
+    position: absolute;
+}
+
+.container{
+    align-items: center;
+    background-image: url("../images/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.content-title{
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.content-title p{
+    margin-bottom: 2%;
+}
+
+
+.intro{
+    position: relative;
+}
+
+.intro-btn img{
+    height: 70px;
+    margin: 20px 10px 0 0;
+    width: 200px;
+}
+
+.intro-btns{
+    display: flex;
+}
+
+.intro-phone{
+    height: 500px;
+    object-fit: contain;
+}
+
+.manager{
+    bottom: 36%;
+    left: 65%;
+    position: absolute;
+}
+
+.phone-1{
+    position: relative;
+    top: 100px;
+}
+
+.small-image{
+    height: 100px;
+    object-fit: contain;
+    width: 100px;
+}
+
+.title-span{ 
+    align-items: center;
+    animation: appear 3s linear 0.7s forwards;;
+    color: #c3005d;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 2%;
+    display: flex;
+    min-width: 280px;
+    visibility: hidden;
+}
+
+.title-span span{
+    position: relative;
+}
+
+.title-span span::after{
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+    background-color: #111828;
+    border-left: 8px solid #c3005d;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: -8px;
+    width: calc(100% + 8px);
+}
+
+.title-span span::before{
+    animation: words 20s infinite;
+    content: "NFT ticketing";
+}
+
+@keyframes appear {
+    from{
+        visibility: hidden;
+    }
+    to{
+        visibility: visible;
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Networking";
+    }
+    21%,40%{
+        content: "Event";
+    }
+    41%,60%{
+        content: "NFT Ticketing";
+    }
+    61%,80%{
+        content: "Networking";
+    }
+    81%,100%{
+        content: "Event";
+    }
+}

@@ -1,0 +1,40 @@
+.btn{
+    align-items: center;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 40px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 8px;
+    width: 166px;
+}
+
+.logo{
+    height: 100px;
+    object-fit: contain;
+    width: 115px;
+}
+
+.logo, .nav{
+    cursor: pointer;
+}
+
+.nav{
+    justify-content: space-between;
+    margin: 2% 5%;
+}
+
+.nav, .nav-btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-btn{
+    align-content: space-around;   
+    flex-wrap: wrap;
+}
