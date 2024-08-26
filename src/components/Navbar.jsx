@@ -1,19 +1,14 @@
 import "./CSS/Navbar.css"
+import NavBtn from "./IntroBtn.jsx";
 
 const Navbar = ()=>{
     return <>
     <div className="nav">
         <img src="../images/logo.png" alt="winee3 logo" className="logo"/>
         <div className="nav-btn">
-            <div className="btn">
-                <img src="../images/coingecko.webp" alt="" /><span>CoinGecko</span>
-            </div>
-            <div className="btn">
-                <img src="../images/gate.io.webp" alt="" /><span>By on Gate.io</span>
-            </div>
-            <div className="btn">
-                <span>Contracts</span>
-            </div>
+            <NavBtn url="../images/coingecko.webp" alt="coingecko image" text="CoinGecko"/>
+            <NavBtn url="../images/gate.io.webp" alt="gate.io image" text="Gate.io"/>
+            <NavBtn text="Contracts"/>
         </div>
     </div>
     </>
