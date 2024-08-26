@@ -1,5 +1,5 @@
-import Navbar from "./navbar";
 import "./CSS/Hero.css";
+import Navbar from "./navbar";
 import Intro from "./Intros";
 
 const Hero = ()=>{

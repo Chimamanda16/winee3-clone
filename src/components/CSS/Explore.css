@@ -1,0 +1,52 @@
+.explore{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0% 5% 5%;
+    padding: 3%;
+}
+
+.explore, .explore-content, .explore-image{
+    position: relative;
+}
+
+.explore-block{
+    background-color: #182337;
+    border: 1px solid #192337;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+
+.explore-block img{
+    align-self: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+    width: 40px;
+}
+
+.explore-block p{
+    color: #5d6f96;
+}
+
+.explore-content{
+    width: 30%;
+}
+
+.explore-image{
+    height: auto;
+    width: 70%;
+}
+
+.explore-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.explore-title span{
+    color: #c3005d;
+}
