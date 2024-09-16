@@ -1,0 +1,49 @@
+.about-sect{
+    color: #fff;
+    margin: 2% 5%;
+    text-align: center;
+}
+
+/* .about-sect video{
+    height: 500px;
+} */
+
+.row{
+    display: flex;
+    text-align: justify;
+    margin-left: -1%;
+    height: 98vh;
+    width: 90vw;
+}
+
+.row img{
+    align-self: end;
+    height: 70%;
+}
+
+.winee-video{
+    height: 93%;
+    border-radius: 5px;
+    margin-left: 5%;
+    position: relative;
+    width: 100vw;
+}
+
+.winee-video img{
+    background-color: #182337;
+    border-radius: 20px;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+    width: 90%;
+}
+
+.winee-video video{
+    border-radius: 0 0 20px 20px;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 8%;
+    width: 90%;
+    z-index: 3;
+}
