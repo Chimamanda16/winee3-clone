@@ -18,6 +18,7 @@ hr{
     border: 1px #4569e7 solid;
     border-radius: 40px;
     color: #4569e7;
+    cursor: pointer;
     display: flex;
     font-size: 16px;
     height: 60px;
@@ -30,6 +31,10 @@ hr{
     display: flex;
     justify-content: space-between;
     margin:5% 3% 3% 5%;
+}
+
+.utility-cont a{
+    text-decoration: none;
 }
 
 .utility-img{

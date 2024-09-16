@@ -17,7 +17,7 @@ const UtilitySect = () =>{
                     <div className="utility-para">
                         <p>Catalyzing Web3 Engagement: the Winee3 token, is your key to unlock a world of utility within the app. Convert it to Winee Points for in-app perks and rewards, incentivizing active participation in the Web3 community.</p>
                     </div>
-                    <button className="utility-btn">Download Whitepaper</button>
+                    <a href="https://cdn.winee3.io/docs/whitepaper.pdf"><button className="utility-btn" target="_blank">Download Whitepaper</button></a>
 
                 </div>
                 <div className="utility-img">
