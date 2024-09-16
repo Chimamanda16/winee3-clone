@@ -4,6 +4,7 @@ import Explore from './components/Explore';
 import AboutSect from './components/About';
 import Join from "./components/Community";
 import SolutionSect from './components/Solution';
+import UtilitySect from './components/Utility';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <AboutSect />
       <Join />
       <SolutionSect />
+      <UtilitySect />
     </>
   )
 }
