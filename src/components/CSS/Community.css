@@ -1,0 +1,48 @@
+.community{
+    align-items: center;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.join-socials{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.join-text{
+    margin-bottom: 4%;
+}
+
+.social{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
+.social p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.social-img{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 80px;
+    padding: 2%;
+    width: 50px;
+}
+
+.join-socials img{
+    height: 40px;
+    margin: 1%;
+    object-fit: contain;
+    width: 40px;
+}
