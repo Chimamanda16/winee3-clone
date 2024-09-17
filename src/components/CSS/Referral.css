@@ -1,0 +1,48 @@
+.referral{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7%;
+    width: 90%;
+}
+
+.referral-img{
+    position: relative;
+    width: 35%;
+}
+
+.referral-img img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.referral-sub{
+    display: flex;
+}
+
+.referral-sub li{
+    margin-right: 12px;
+}
+
+.referral-sub li::marker{
+    color: #e0a743;
+    font-size: 20px;
+}
+
+.referral-text{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.referral-text h2{
+    font-size: 3rem;
+}
+
+
+.referral-text p{
+    font-size: 18px;
+}
