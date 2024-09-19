@@ -6,6 +6,7 @@ import Join from "./components/Community";
 import SolutionSect from './components/Solution';
 import UtilitySect from './components/Utility';
 import ReferralSect from './components/Referral';
+import PartnerSect from './components/Partners';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <SolutionSect />
       <UtilitySect />
       <ReferralSect />
+      <PartnerSect />
     </>
   )
 }

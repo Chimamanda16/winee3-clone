@@ -1,0 +1,33 @@
+.partners{
+    background-color: #182337;
+    border-radius: 35px;
+    color: #fff;
+    margin: 2% 6%;
+    text-align: center;
+}
+
+.partner-img{
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    height: 190px;
+    width: 14%;
+}
+
+.partner-img img{
+    width: 80%;
+}
+
+.partner-imgs{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 3%;
+}
+
+.partner-title h2{
+    font-size: 3rem;
+}
