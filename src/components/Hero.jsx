@@ -1,6 +1,6 @@
 import "./CSS/Hero.css";
-import Navbar from "./navbar";
-import Intro from "./Intros";
+import Navbar from "./Navbar.jsx";
+import Intro from "./Intros.jsx";
 
 const Hero = ()=>{
 
