@@ -1,10 +1,11 @@
 import './App.css'
-import Hero from './components/hero';
+import Hero from './components/Hero';
 import Explore from './components/Explore';
 import AboutSect from './components/About';
 import Join from "./components/Community";
 import SolutionSect from './components/Solution';
 import UtilitySect from './components/Utility';
+import TokenomicsSect from './components/Tokenomics';
 import ReferralSect from './components/Referral';
 import PartnerSect from './components/Partners';
 import PressSect from './components/Press';
@@ -43,6 +44,7 @@ function App() {
       <Join />
       <SolutionSect />
       <UtilitySect />
+      <TokenomicsSect />
       <ReferralSect />
       <PartnerSect info={imgLinks} title="Our Partners"/>
       <PressSect />
