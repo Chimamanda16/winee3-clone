@@ -1,0 +1,104 @@
+.address{
+    background-color: #0f1829;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+
+.address, .footer-logo,.row-2 p, .social-icons img{
+    cursor: pointer;
+}
+
+.address img{
+    margin: 0 2%;
+    object-fit: contain;
+}
+
+.address p{
+    font-size: 95%;
+}
+
+.contract-img{
+    width: 30px;
+}
+
+.copy-icon{
+    width: 20px;
+}
+
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin: 6%;
+}
+
+.footer-logo{
+    width: 30%;
+}
+
+.pdf{
+    display: flex;
+    width: 50%;    
+}
+
+.pdf-col{
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.resources{
+    display: flex;
+}
+
+.row-1{
+    width: 40%;
+}
+
+.row-2
+{
+    width: 25%;
+}
+
+.row-3{
+    width: 30%;
+}
+
+.row-2 p{
+    position: relative;
+    transition: all 1s;
+    width: fit-content;
+}
+
+.row-2 p:hover{
+    color: blue;
+    left: 10px;
+}
+
+.social-icons img{
+    border-radius: 50%;
+    color: #fff;
+    height: 40px;
+    margin: 2%;
+    object-fit: contain;
+    width: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
