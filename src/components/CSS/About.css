@@ -4,10 +4,6 @@
     text-align: center;
 }
 
-/* .about-sect video{
-    height: 500px;
-} */
-
 .row{
     display: flex;
     text-align: justify;
@@ -46,4 +42,16 @@
     top: 8%;
     width: 90%;
     z-index: 3;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .row img{
+        height: 100%;
+    }
+
+    .winee-video{
+        align-self: center;
+        height: 50%;
+    }
 }

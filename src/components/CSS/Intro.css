@@ -161,3 +161,25 @@
         content: "Event";
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .anime{
+        height: 80vh;
+    }
+
+    .ceo{
+        left: 10%;
+    }
+
+    .content-title{
+        font-size: 2rem;
+    }
+
+    .manager{
+        left: 80%;
+    }
+
+    .phone-1, .phone-2{
+        display: none;
+    }
+}

@@ -2,6 +2,7 @@
     color: #fff;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 2% 4% 5%;
 }
 
@@ -15,7 +16,6 @@
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-bottom: 15px;
     padding: 25px;
 }
@@ -24,6 +24,7 @@
     align-self: center;
     background-color: #fff;
     border-radius: 5px;
+    margin-right: 5%;
     padding: 6px;
     width: 40px;
 }
@@ -33,20 +34,43 @@
 }
 
 .explore-content{
-    width: 30%;
+    width: 40%;
 }
 
 .explore-image{
     height: 650px;
-    width: 70%;
+    width: 50%;
 }
 
 .explore-image img{
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
 }
 
 .explore-title span{
     color: #c3005d;
+}
+
+@media screen and (max-width: 1000px) {
+    .explore{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore-content{
+        width: 90%;
+    }
+
+    .explore-block{
+        justify-content: flex-start;
+    }
+
+    .explore-block img{
+        margin: 4%;
+    }
+    .explore-image{
+        width: 100%;
+    }
 }
