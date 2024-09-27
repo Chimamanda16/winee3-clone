@@ -171,7 +171,7 @@
         left: 10%;
     }
 
-    .content-title{
+    .content-title, .title-span{
         font-size: 2rem;
     }
 
