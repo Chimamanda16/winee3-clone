@@ -183,6 +183,11 @@
         margin-top: 10%;
     }
 
+    .intro-btn img{
+        height: 50px;
+        width: 150px;
+    }
+
     .manager{
         left: 80%;
     }
