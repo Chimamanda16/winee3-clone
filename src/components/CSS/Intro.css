@@ -7,6 +7,7 @@
 .anime{
     display: flex;
     flex-direction: row;
+    height: 90vh;
     justify-content: space-between;
     margin: 2% 5%;
     width: 95%;
@@ -191,7 +192,7 @@
     }
 
     .manager{
-        left: 80%;
+        left: 70%;
     }
 
     .phone-1, .phone-2{
