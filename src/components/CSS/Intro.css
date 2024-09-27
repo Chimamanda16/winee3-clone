@@ -164,7 +164,7 @@
 
 @media screen and (max-width: 1000px) {
     .anime{
-        height: 80vh;
+        height: 70vh;
     }
 
     .ceo{
@@ -173,6 +173,14 @@
 
     .content-title, .title-span{
         font-size: 2rem;
+    }
+
+    .home{
+        margin: 2% 4% 5%;
+    }
+
+    .intro{
+        margin-top: 10%;
     }
 
     .manager{
