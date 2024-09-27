@@ -6,7 +6,7 @@ const AboutSect = () =>{
             <h3>How Winee3 Works</h3>
             <p>Experience the power of Web3 networking with Winee3. Join a global community, effortlessly connect, turn virtual networking into real-life meetups, access top Web3 opportunities, discover events with NFT tickets, earn rewards, and tailor your profile for a personalized experience.</p>
             <div className="row">
-                <img src="../images/line.png" alt="" />
+                <img src="../images/line.png" alt=""  className="line-img"/>
                 <div className="winee-video">
                     <img src="../images/explore-video-top.png" alt="" />
                     <video muted loop autoPlay controls>

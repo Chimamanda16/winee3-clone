@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.line-img{
+    position: relative;
+}
+
 .row{
     display: flex;
     text-align: justify;
@@ -13,12 +17,11 @@
 }
 
 .row img{
-    align-self: end;
     height: 70%;
 }
 
 .winee-video{
-    height: 93%;
+    height: 60%;
     border-radius: 5px;
     margin-left: 5%;
     position: relative;
@@ -35,8 +38,8 @@
 }
 
 .winee-video video{
+    align-self: center;
     border-radius: 0 0 20px 20px;
-    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 8%;
@@ -53,5 +56,7 @@
     .winee-video{
         align-self: center;
         height: 50%;
+        position: absolute;
+        width: 90%;
     }
 }
