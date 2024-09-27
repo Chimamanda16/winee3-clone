@@ -109,6 +109,7 @@
 
 .title-span span{
     position: relative;
+    min-width: 280px;
 }
 
 .title-span span::after{
