@@ -10,7 +10,7 @@
 .join-socials{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 90%;
 }
 
 .join-text{
@@ -44,4 +44,10 @@
     margin: 1%;
     object-fit: contain;
     width: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .social p{
+        font-size: 1rem;
+    }
 }
