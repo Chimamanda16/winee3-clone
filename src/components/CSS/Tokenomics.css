@@ -43,10 +43,10 @@
 
     .tokenomics-chart, .tokenomics-text{
         align-self: center;
-        width: 75%;
     }
     
     .tokenomics-text{
         margin-bottom: 10%;
+        width: 75%;
     }
 }
