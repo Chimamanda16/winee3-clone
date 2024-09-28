@@ -78,6 +78,15 @@ hr{
 
     .utility-text, .utility-img{
         margin-bottom: 10%;
-        width: 75%;
+        width: 100%;
+    }
+
+    .utility-para{   
+        margin-bottom: 5%;
+    }
+
+    .utility-sub{
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
 }

@@ -1,4 +1,5 @@
 .tokenomics{
+    background-color: #192337;
     display: flex;
     justify-content: space-between;
     margin: 2% 4% 5%;
@@ -28,4 +29,15 @@
 
 .tokenomics-text p{
     color: gray;
+}
+
+@media screen and (max-width: 1000px) {
+    .tokenomics{
+        flex-direction: column;
+    }
+    .tokenomics-chart, .tokenomics-text{
+        align-self: center;
+        margin-bottom: 5%;
+        width: 75%;
+    }
 }
