@@ -45,3 +45,9 @@
         width: 40%;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .solution-box{
+        width: 75%;
+    }
+}
