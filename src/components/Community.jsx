@@ -28,7 +28,7 @@ const Join =() =>{
                     <div className="social-img">
                         <img src="../images/instagram.webp" alt="" />
                     </div>
-                    <p>instagram</p>
+                    <p>Insta</p>
                 </div>
                 <div className="social">    
                     <div className="social-img">

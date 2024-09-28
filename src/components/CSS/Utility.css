@@ -38,6 +38,7 @@ hr{
 }
 
 .utility-img{
+    align-self: center;
     position: relative;
     width: 50%;
 }
@@ -68,4 +69,15 @@ hr{
 
 .utility-title h2{
     font-size: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .utility-cont{
+        flex-direction: column;
+    }
+
+    .utility-text, .utility-img{
+        margin-bottom: 10%;
+        width: 75%;
+    }
 }
