@@ -50,15 +50,4 @@
     .social p{
         font-size: 1rem;
     }
-
-    .solution-box{
-        width: 27%;
-    }
-}
-
-
-@media screen and (max-width: 700px) {
-    .solution-box{
-        width: 40%;
-    }
 }
