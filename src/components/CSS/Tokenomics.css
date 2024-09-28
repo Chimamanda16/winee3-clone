@@ -34,10 +34,19 @@
 @media screen and (max-width: 1000px) {
     .tokenomics{
         flex-direction: column;
+        padding: 6% 0;
     }
+
+    .tokenomics-chart{
+        width: 100%;
+    }
+
     .tokenomics-chart, .tokenomics-text{
         align-self: center;
-        margin-bottom: 5%;
         width: 75%;
+    }
+    
+    .tokenomics-text{
+        margin-bottom: 10%;
     }
 }

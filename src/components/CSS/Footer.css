@@ -98,3 +98,18 @@
     object-fit: contain;
     width: 40px;
 }
+
+@media screen and (max-width: 850px) {
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .row-1, .row-3{
+        width: 50%;
+    }
+    .row-2{
+        width: 30%;
+    }
+}

@@ -72,11 +72,15 @@ hr{
 }
 
 @media screen and (max-width: 1000px) {
+    .utility-btn{
+        margin-bottom: 5%;
+    }
+
     .utility-cont{
         flex-direction: column;
     }
 
-    .utility-text, .utility-img{
+    .utility-img, .utility-text{
         margin-bottom: 10%;
         width: 100%;
     }
