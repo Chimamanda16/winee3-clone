@@ -47,6 +47,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .referral{
+        flex-direction: column;
+    }
     .referral-img, .referral-text{
         width: 100%;
     }

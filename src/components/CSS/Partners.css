@@ -26,9 +26,34 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
     margin: 0 3%;
 }
 
 .partner-title h2{
     font-size: 3rem;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1300px) {
+    .partner-img{
+        width: 18%;
+    }
+}
+
+@media screen and (min-width: 560px) and (max-width: 950px) {
+    .partner-img{
+        width: 29%;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width: 560px) {
+    .partner-img{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 400px) {
+    .partner-img{
+        width: 75%;
+    }
 }
