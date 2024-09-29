@@ -14,10 +14,14 @@ const Intro = () =>{
                 </div>
                 <div className="intro-btns">
                     <div className="intro-btn">
-                        <img src="../images/google-play.webp" alt="" />
+                        <a href="https://play.google.com/store/apps/details?id=io.winee3.beta" target="_blank">
+                            <img src="../images/google-play.webp" alt="" />
+                        </a>
                     </div>
                     <div className="intro-btn">
-                        <img src="../images/app-store.webp" alt="" />
+                        <a href="https://apps.apple.com/tr/app/winee3-social-crypto-earn/id6477886704" target="_blank">
+                            <img src="../images/app-store.webp" alt="" />
+                        </a>
                     </div>
                 </div>
             </div>
