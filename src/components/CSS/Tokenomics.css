@@ -44,7 +44,9 @@
     }
 
     .tokenomics-chart{
+        display: flex;
         height: 400px;
+        justify-content: center;
         width: 100%;
     }
     
