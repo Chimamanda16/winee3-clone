@@ -51,6 +51,7 @@
 
 .pdf{
     display: flex;
+    margin: auto;
     width: 50%;    
 }
 
