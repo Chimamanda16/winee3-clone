@@ -6,6 +6,22 @@ const FooterSect =() =>{
     const [Address1, setAddress1] = useState("0x46971fc433d90cf2ff1da4a66abe320dfb0ce3b1");
     const [Address2, setAddress2] = useState("0x914ca962881825100e0ec3e7965732497834a487");
     const [gap, setGap] = useState("3%");
+
+    useEffect(() =>{
+        if(window.innerWidth < 1400){
+            setAddress1("0x46971fc433d90cf2ff1da4a...");
+            setAddress2("0x914ca962881825100e0ec3e...");
+            setGap("10%")
+            
+        }
+        else if(window.innerWidth > 1400){
+            setAddress1("0x46971fc433d90cf2ff1da4a66abe320dfb0ce3b1")
+            setAddress2("0x914ca962881825100e0ec3e7965732497834a487")
+            setGap("3%")
+        }
+    }, [])
+
+
     useEffect(() =>{
         window.addEventListener("resize", () =>{
             if(window.innerWidth < 1400){
@@ -20,6 +36,7 @@ const FooterSect =() =>{
                 setGap("3%")
             }
         });
+        
     });
 
     return <>

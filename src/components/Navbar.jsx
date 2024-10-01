@@ -30,7 +30,7 @@ const Navbar = ()=>{
 
                     <NavBtn url="../images/coingecko.webp" alt="coingecko image" text="CoinGecko"/>
                     <NavBtn url="../images/gate.io.webp" alt="gate.io image" text="Gate.io"/>
-                    <NavBtn text="Contracts"/>
+                    <NavBtn text="Contracts" alt="none"/>
                     </div>
             </div>
         </div>
