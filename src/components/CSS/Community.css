@@ -47,6 +47,17 @@
 }
 
 @media screen and (max-width: 1000px) {
+
+    .join-socials{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .social{
+        margin: auto;
+        width: 30%;
+    }
+
     .social p{
         font-size: 1rem;
     }
