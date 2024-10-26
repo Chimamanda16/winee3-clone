@@ -1,5 +1,4 @@
 import "./CSS/Navbar.css"
-import NavBtn from "./IntroBtn.jsx";
 import { useState, useRef } from "react";
 
 const Navbar = ()=>{
@@ -28,10 +27,16 @@ const Navbar = ()=>{
             <div className="nav-btn">
                 <div className="nav-items" ref={navItemsRef}>
 
-                    <NavBtn url="../images/coingecko.webp" alt="coingecko image" text="CoinGecko"/>
-                    <NavBtn url="../images/gate.io.webp" alt="gate.io image" text="Gate.io"/>
-                    <NavBtn text="Contracts" alt="none"/>
+                    <div className="btn">
+                        <img src="../images/coingecko.webp" alt="coingecko image" /><span>CoinGecko</span>
                     </div>
+                    <div className="btn">
+                        <img src="../images/gate.io.webp" alt="gate.io image" /><span>Gate.io</span>
+                    </div>
+                    <div className="btn">
+                        <span>Contracts</span>
+                    </div>
+                </div>
             </div>
         </div>
     </>
