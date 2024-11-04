@@ -27,15 +27,21 @@ const Navbar = ()=>{
             <div className="nav-btn">
                 <div className="nav-items" ref={navItemsRef}>
 
-                    <div className="btn">
-                        <img src="../images/coingecko.webp" alt="coingecko image" /><span>CoinGecko</span>
-                    </div>
-                    <div className="btn">
-                        <img src="../images/gate.io.webp" alt="gate.io image" /><span>Gate.io</span>
-                    </div>
-                    <div className="btn">
-                        <span>Contracts</span>
-                    </div>
+                    <a href="https://www.coingecko.com/en/coins/winee3" className="nav-links">
+                        <div className="btn">
+                            <img src="../images/coingecko.webp" alt="coingecko image" /><span>CoinGecko</span>
+                        </div>
+                    </a>
+                    <a href="https://www.gate.io/trade/WNE_USDT" className="nav-links">
+                        <div className="btn">
+                            <img src="../images/gate.io.webp" alt="gate.io image" /><span>Gate.io</span>
+                        </div>
+                    </a>
+                    <a href="https://www.gate.io/trade/WNE_USDT" className="nav-links">
+                        <div className="btn">
+                            <span>Contracts</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
